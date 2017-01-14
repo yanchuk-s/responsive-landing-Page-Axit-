@@ -129,7 +129,7 @@ a, a:hover{text-decoration: none;}
 
 .nav li{margin-top: 5%;}
 
-#menu-trigger{ margin-top: 4%; margin-bottom: 2%; font-size: 2em; }
+#menu-trigger{ margin-top: 4%; margin-bottom: 2%; font-size: 2em; cursor: pointer;}
 
 
 /* Shrink */
@@ -306,6 +306,47 @@ cursor: pointer;
 
 /*========== HOME SECTION END ====================*/
 
+.brandBar {
+    padding: 6% 0;
+    
+    text-align: center;
+    background-color: #ffffff;
+    
+    border-bottom: 2px #b7b7b7 solid;
+}
+
+.brandBar h2{ color: #333333; font-size: 1.8em; margin-bottom: 4%; }
+
+.brandBar p{color: #a9aaac;}
+
+.icons{ margin-top: 6%;}
+.icons li{display: inline; margin-left: 2%;}
+
+.brandBar .fa{
+    color: #cccccc;
+    font-size: 1.6em;
+}
 
 
 
+@media screen and (min-width:500px){
+    .brandBar {padding: 3% 0;}
+    .brandBar h2{margin-bottom: 3%;}
+    .icons{ margin-top: 3%; }
+  
+}
+
+@media screen and (min-width:768px){
+ #iconstext{float: left; text-align: left; width: 40%;}
+    .brandBar .fa{font-size: 2em;}
+
+}
+@media screen and (min-width:1024px){
+    .brandBar {padding: 2% 0; text-align: right;}
+    .brandBar h2{margin-bottom: 1%; font-size: 2em; }
+    .icons{ margin-top: 1%; margin-right: 7%; }
+    .brandBar .fa{font-size: 2.3em;}
+    .icons li{ margin-left: 3%;}
+    
+    #iconstext{float: left; text-align: left; width: 40%;}
+}
