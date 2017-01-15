@@ -306,6 +306,8 @@ cursor: pointer;
 
 /*========== HOME SECTION END ====================*/
 
+/*--------- brandBar ------------*/
+
 .brandBar {
     padding: 6% 0;
     
@@ -350,3 +352,77 @@ cursor: pointer;
     
     #iconstext{float: left; text-align: left; width: 40%;}
 }
+/*--------- brandBar END ------------*/
+
+
+
+/*======== TABS =========*/
+
+.tabsSection{ background-color: #f5f5f5; text-align: center;padding-bottom: 2%;}
+
+
+.etabs{padding: 8% 0; }
+.etabs li{margin-top: 5%;}
+
+.tab a{color: white; background-color: #333333; padding: 15.6%; border-bottom: 1px #c7c7c7 solid; }
+.tab a:hover{background-color: #ff8b38;
+
+    -webkit-transition:1s;
+     -moz-transition: 1s;
+     -o-transition: 1s;
+     transition: 1s;
+    
+}
+.tab a.active { box-shadow: 0 0 20px rgba(113, 159, 191, 0.7); /* Параметры тени */ background-color: #ff8b38;  }
+
+.tabsContent {margin-top: 9%; }
+.tabsContent h2{font-size: 1.3em; font-family: "Arial", sans-serif;margin-bottom: 5%;}
+.tabsContent p{color: #8e8f93; margin-bottom: 6%;}
+
+#tabsBTN{background-color: #ff8b38; color: white; padding: 10px 25px; border-radius: 5px; margin-top: 6%; cursor: pointer;}
+#tabsBTN:hover{ background-color: black; 
+ -webkit-transition:1s;
+     -moz-transition: 1s;
+     -o-transition: 1s;
+     transition: 1s;
+}
+.tabsContent img{max-width: 100%;height: auto; display: none}
+.col-6{width: 100%;}
+
+
+
+/*!!!!!!!! MEDIA FOR TABS !!!!!!!!!!!*/
+
+@media screen and (max-width:768px){
+    .etabs li{display: inline;}
+    .tab a{color: white; background-color: #333333; padding: 4%; border-bottom: 1px #c7c7c7 solid; }
+}
+
+
+
+@media screen and (min-width:768px){
+    .tabsContent h2{margin-top: 5%; }
+    .tabsContent p{margin-bottom: 8%; }
+    .tabsContent{text-align: left;width: 80%;float: right; margin-top: 0;padding: 6% 0;}
+    .etabs{float: left; width: 20% }
+    .etabs li{list-style: block; padding: 10%;   }
+    
+    .tab a {overflow:inherit;}
+    
+    .tabsContent img{display: block;  }
+    .col-6{width: 50%;}
+    
+    #tabs1-html h2{text-align: left;}
+#tabs1-html p{text-align: left;}
+
+#tabs1-js h2{text-align: left;}
+#tabs1-js p{text-align: left;}
+
+#tabs1-css h2{text-align: left;}
+#tabs1-css p{text-align: left;}
+    
+}
+
+/*======== TABS  END=========*/
+
+
