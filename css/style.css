@@ -467,7 +467,7 @@ cursor: pointer;
 /*================== OurProcess  ========================*/
 .OurProcess{ padding: 5% 0; text-align: center;}
 
-.OurProcess h1{font-size: 1.5em;color: #212121; margin-bottom: 2%;}
+.OurProcess h1{font-size: 1.5em;color: #212121; margin-bottom: 2%; font-family: "Lucidatypewriter",monospace;}
 .OurProcess p{ color: #86878b; margin-top: 1%;}
 
 .OurProcess h2{font-size: 1.3em; font-family: "Arial", sans-serif;margin-bottom: 4%;margin-top: 10%;}
@@ -496,10 +496,12 @@ cursor: pointer;
 }
 /*================== OurProcess END  ========================*/
 
+/*------------------- Pricing  ---------------------------------*/
+
 
 .Pricing{ padding: 5% 0; text-align: center; background-color: #f5f5f5; }
 
-.Pricing h1{font-size: 1.5em;color: #212121; margin-bottom: 2%;}
+.Pricing h1{font-size: 1.5em;color: #212121; margin-bottom: 2%; font-family: "Lucidatypewriter",monospace; }
 .Pricing p{ color: #86878b; margin-top: 1%;}
 
 .Pricing h2{ padding: 4% 0; background-color: #333333;border-bottom: 1px #fff solid; color: white; font-family: monospace;
@@ -537,4 +539,125 @@ font-size: 1.7em;
     #threePrice{ margin-top:9%; }
     
     
+}
+
+/*------------------- Pricing END  ---------------------------------*/
+
+.Testimonials {padding: 5% 0; text-align: center;}
+
+.Testimonials img{max-width: 100%; height: auto;}
+
+.Testimonials h1{font-family: "Lucidatypewriter",monospace; font-size: 1.5em;}
+
+.Testimonials p{ color: #86878b; margin: 3% 0;  }
+
+.Testimonials h3{ color: #86878b; margin-top: 1%; background-color: #f5f5f5; padding: 5% 0; border-radius: 5px; margin-bottom: 3%; z-index: 1;position: relative;   }
+
+.Testimonials h2{font-size: 1.2em; margin-top: 2%; font-family: "Helvetica", sans-serif; }
+
+.Testimonials h4{color: #a9aaac; font-family: cursive; }
+
+@media screen and (min-width:1024px){
+    .Testimonials h3{padding: 7% 2%; width: 80%; }
+    .Testimonials img {margin-top: 4%;}
+}
+
+
+
+.fa-caret-down {margin-bottom: -35%; z-index: 3;position: relative; color: #dddbdb;}
+
+
+
+
+.parallax{
+	min-height: 50%;
+	height: auto;
+	background: white url(../img/parallax.png) no-repeat center bottom ;
+	 width: 100%;
+    background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+    padding-bottom: 5%;
+	
+}
+
+.parallax h1{
+   font-family: "Lucidatypewriter",monospace; font-size: 1.5em; margin: 5% 0; color: #dddcdb;
+    
+}
+.parallax p{ color: #c0c0be; margin: 3% 0;  }
+
+@media screen and (min-width:768px){
+    .parallax h1{margin-top: 5%; margin-bottom: 3%; margin-left: 20%; margin-right: 20%; font-size: 2em; }
+    .parallax p {margin: 2% 0;}
+}
+@media screen and (min-width:1024px){
+    .parallax h1{margin-top: 5%; margin-bottom: 2%; margin-left: 20%; margin-right: 20%; font-size: 2em; }
+    .parallax p {margin: 1% 0;}
+}
+
+
+
+.contactUs{padding: 5% 0; text-align: center};
+
+.contactInputStyle {
+    width: 100%;
+    
+}
+
+.massager{width: 80%;
+    
+ border: none;
+    border-bottom: 2px #d6d6d6 solid;
+    
+  
+  
+    
+    padding-bottom: 15%;
+
+}
+
+.massager:hover{
+    border-bottom: 2px #ff9b51 solid;
+}
+.massager:focus{
+    border-bottom: 2px #ff9b51 solid;
+}
+
+
+.contactt{width: 80%; 
+    
+    margin-top: 5%;
+    padding: 3%;
+    border: none;
+    border-bottom: 2px #d6d6d6 solid;
+    
+}
+.contactt:hover{
+    border-bottom: 2px #ff9b51 solid;
+}
+.contactt:focus{
+    border-bottom: 2px #ff9b51 solid;
+}
+.contactUs h1{
+    font-family: "Lucidatypewriter",monospace; font-size: 1.5em; margin: 5% 0; color: #212121;}
+
+.sendMs {padding: 15px 40px; color: white; background-color: #ff9b51; border: none; margin-top: 4%;}
+.sendMs:hover{box-shadow: 0 0 20px rgba(113, 159, 191, 0.7)}
+
+@media screen and (min-width:768px){
+    .massager{padding-bottom: 30%; margin-top: 9%;} 
+    .contactUs h1{margin-top: 5%; margin-bottom: 4%; margin-left: 20%; margin-right: 20%; font-size: 2.2em; }
+}
+
+
+
+.footer{padding: 3%; text-align: center; background-color: #000000;}
+.footer a{color: #cccccc; font-size: 1.5em; margin: 0 1%;}
+.footer p{color: #cccccc; margin-top: 2%;}
+@media screen and (min-width:768px){
+    .footer a{color: #cccccc; font-size: 2em; margin: 0 1%;}
 }
